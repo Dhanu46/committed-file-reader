@@ -18,7 +18,6 @@ public class Main {
         final Path path = Paths.get(fileName);
         System.out.println(path);
         final Set<String> strings = new Main().readFileInList(fileName);
-        strings.forEach(System.out::println);
 
     }
     public  Set<String> readFileInList(String fileName)

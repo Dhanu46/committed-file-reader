@@ -24,7 +24,7 @@ public class Main {
     public  Set<String> readFileInList(String fileName)
     {
 
-        List<String> lines = Collections.emptyList();
+        List<String> lines;
         Set<String> collect = Collections.emptySet();
         try
         {
